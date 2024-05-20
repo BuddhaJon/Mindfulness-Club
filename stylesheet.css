@@ -21,3 +21,8 @@ body {
     margin-right: auto;
     width: fit-content;
   }
+
+.responsive-image {
+  max-width: 100%; /* Ensures the image resizes to fit the screen width */
+  height: auto; /* Maintains the aspect ratio */
+}
