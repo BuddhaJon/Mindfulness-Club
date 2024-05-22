@@ -13,6 +13,7 @@ h1 a {
   text-decoration: none;
   text-align: center;
   padding: 0 10px;
+  color: purple;
 }
 
 h1 a:hover {
@@ -50,4 +51,16 @@ footer p {
 .responsive-image, .responsive-video {
   max-width: 100%; /* Ensures the image resizes to fit the screen width */
   height: auto; /* Maintains the aspect ratio */
+  padding: 50px 0;
+}
+
+p {
+  padding: 0 100px; /* Ensures text stays 20px away from the edge of the container */
+  margin: 0;
+  color: black;
+}
+
+li {
+  color: black;
+  
 }
