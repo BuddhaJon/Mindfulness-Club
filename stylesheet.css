@@ -64,3 +64,12 @@ li {
   color: black;
   
 }
+
+@media (max-width: 600px) {
+  section {
+    padding: 0 5%; /* Reduce padding for smaller screens */
+  }
+  p {
+    padding: 0 5%; /* Reduce padding for smaller screens */
+  }
+}
